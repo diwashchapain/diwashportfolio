@@ -52,7 +52,7 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
-        if (scroll >= 320 && !animationStarted) {
+        if (scroll >= 1200 && !animationStarted) {
             animationStarted = true;
             $('.counter-count').each(function () {
                 $(this).prop('Counter', 0).animate({
