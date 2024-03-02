@@ -39,7 +39,7 @@ $(document).ready(function () {
     // Hero section
 
     var typed = new Typed('#element', {
-        strings: ['Web Designer', 'Wordpress Developer', 'Graphics Designer', 'UI / UX Designer'],
+        strings: ['Web Designer', 'Wordpress Developer', 'Graphic Designer', 'UI / UX Designer'],
         typeSpeed: 50,
         loop: true
     });
